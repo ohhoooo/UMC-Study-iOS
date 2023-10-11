@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController {
     
     @IBOutlet weak var productTableView: UITableView!
     
@@ -24,7 +24,10 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         productTableView.dataSource = self
     }
+}
 
+extension ViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return productTitle.count
     }
