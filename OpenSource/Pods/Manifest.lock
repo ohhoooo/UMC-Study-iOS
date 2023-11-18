@@ -1,0 +1,20 @@
+PODS:
+  - LoadingShimmer (1.0.3)
+  - Pastel (0.6.0)
+
+DEPENDENCIES:
+  - LoadingShimmer
+  - Pastel
+
+SPEC REPOS:
+  trunk:
+    - LoadingShimmer
+    - Pastel
+
+SPEC CHECKSUMS:
+  LoadingShimmer: dd681218498ec9648f572b845a7299b9c62e8e30
+  Pastel: 814f081efbe2859c37e65ee44f396e6e5be88619
+
+PODFILE CHECKSUM: de3acc060478f3218390b5f5a709b5ced6866223
+
+COCOAPODS: 1.14.2

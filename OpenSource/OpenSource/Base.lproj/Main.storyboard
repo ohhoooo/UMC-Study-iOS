@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OpenSource" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A 화면" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfS-bN-W1k">
+                                <rect key="frame" x="130.66666666666666" y="396" width="131.99999999999997" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7J3-Yu-jLW">
+                                <rect key="frame" x="10" y="728" width="373" height="80"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="NfG-pk-4Qz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="B 화면으로 이동"/>
+                                <connections>
+                                    <segue destination="YyA-uU-V6C" kind="show" id="jt3-DV-GyN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7J3-Yu-jLW" secondAttribute="trailing" constant="10" id="1XQ-zK-dRG"/>
+                            <constraint firstItem="7J3-Yu-jLW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="GzX-8F-yo2"/>
+                            <constraint firstItem="pfS-bN-W1k" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KQe-q9-FLd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7J3-Yu-jLW" secondAttribute="bottom" constant="10" id="TC2-X3-Ptq"/>
+                            <constraint firstItem="pfS-bN-W1k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k2C-Xz-bPB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-27"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="ebY-WQ-AcG">
+            <objects>
+                <viewController id="YyA-uU-V6C" customClass="SecondViewController" customModule="OpenSource" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="058-wm-0fp">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B 화면" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ri9-Sg-MfR">
+                                <rect key="frame" x="132" y="391" width="129.33333333333337" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rua-JC-aVz">
+                                <rect key="frame" x="10" y="752" width="373" height="80"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="V7o-Rz-542"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="A 화면으로 이동"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="YyA-uU-V6C" eventType="touchUpInside" id="e9P-eN-Alk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nxx-9a-yaO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ri9-Sg-MfR" firstAttribute="centerY" secondItem="058-wm-0fp" secondAttribute="centerY" id="BPe-r1-OVt"/>
+                            <constraint firstItem="Nxx-9a-yaO" firstAttribute="bottom" secondItem="Rua-JC-aVz" secondAttribute="bottom" constant="10" id="Ibf-gV-Bfa"/>
+                            <constraint firstItem="Rua-JC-aVz" firstAttribute="trailing" secondItem="Nxx-9a-yaO" secondAttribute="trailing" constant="-10" id="MtX-GR-hP2"/>
+                            <constraint firstItem="ri9-Sg-MfR" firstAttribute="centerX" secondItem="058-wm-0fp" secondAttribute="centerX" id="c4h-yh-8Hs"/>
+                            <constraint firstItem="Rua-JC-aVz" firstAttribute="leading" secondItem="Nxx-9a-yaO" secondAttribute="leading" constant="10" id="hRt-FD-GKk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iFA-n2-MlF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Z8-Yq-oXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="915" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
