@@ -25,6 +25,9 @@
 		37C2238E2B099949008F7DE7 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C2238C2B099949008F7DE7 /* StoryTableViewCell.xib */; };
 		37C223912B099D86008F7DE7 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C2238F2B099D86008F7DE7 /* StoryCollectionViewCell.swift */; };
 		37C223922B099D86008F7DE7 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C223902B099D86008F7DE7 /* StoryCollectionViewCell.xib */; };
+		37C223952B09AC21008F7DE7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C223942B09AC21008F7DE7 /* ProfileViewController.swift */; };
+		37C223992B09AFE6008F7DE7 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C223972B09AFE6008F7DE7 /* ProfileCollectionViewCell.swift */; };
+		37C2239A2B09AFE6008F7DE7 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C223982B09AFE6008F7DE7 /* ProfileCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		37C2238C2B099949008F7DE7 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
 		37C2238F2B099D86008F7DE7 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		37C223902B099D86008F7DE7 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		37C223942B09AC21008F7DE7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		37C223972B09AFE6008F7DE7 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		37C223982B09AFE6008F7DE7 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				37C223822B098332008F7DE7 /* Home */,
+				37C223932B09ABE8008F7DE7 /* Profile */,
 				37A416F82AD5800B000ED520 /* AppDelegate.swift */,
 				37A416FA2AD5800B000ED520 /* SceneDelegate.swift */,
 				375F1D262AE1482C00DE26B5 /* LoginViewController.swift */,
@@ -123,6 +130,24 @@
 				37C2238C2B099949008F7DE7 /* StoryTableViewCell.xib */,
 				37C2238F2B099D86008F7DE7 /* StoryCollectionViewCell.swift */,
 				37C223902B099D86008F7DE7 /* StoryCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		37C223932B09ABE8008F7DE7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				37C223962B09AFAB008F7DE7 /* Cell */,
+				37C223942B09AC21008F7DE7 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		37C223962B09AFAB008F7DE7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				37C223972B09AFE6008F7DE7 /* ProfileCollectionViewCell.swift */,
+				37C223982B09AFE6008F7DE7 /* ProfileCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -188,6 +213,7 @@
 				37A417052AD5800C000ED520 /* LaunchScreen.storyboard in Resources */,
 				37C2238A2B09869E008F7DE7 /* FeedTableViewCell.xib in Resources */,
 				37A417022AD5800C000ED520 /* Assets.xcassets in Resources */,
+				37C2239A2B09AFE6008F7DE7 /* ProfileCollectionViewCell.xib in Resources */,
 				37C2238E2B099949008F7DE7 /* StoryTableViewCell.xib in Resources */,
 				37C223922B099D86008F7DE7 /* StoryCollectionViewCell.xib in Resources */,
 				37A417002AD5800B000ED520 /* Main.storyboard in Resources */,
@@ -211,6 +237,8 @@
 				37C223852B098493008F7DE7 /* HomeViewController.swift in Sources */,
 				375F1D2F2AE175E500DE26B5 /* UIViewController+Extension.swift in Sources */,
 				375F1D2B2AE1737400DE26B5 /* UIView+Extension.swift in Sources */,
+				37C223992B09AFE6008F7DE7 /* ProfileCollectionViewCell.swift in Sources */,
+				37C223952B09AC21008F7DE7 /* ProfileViewController.swift in Sources */,
 				375F1D292AE14D7800DE26B5 /* RegisterViewController.swift in Sources */,
 				37C223892B09869E008F7DE7 /* FeedTableViewCell.swift in Sources */,
 			);
